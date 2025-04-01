@@ -1,5 +1,5 @@
 def calculate_discount(price, discount_percent): # creating a function with two parameters
-    if discount_percent >= 20: # the disount percent is greater than or equal to 20
+    if discount_percent >= 20: # the discount percent is greater than or equal to 20
         # calculating the discount amount
         discount_amount = (price * discount_percent) / 100
         final_discount_price = price - discount_amount
@@ -13,3 +13,5 @@ price = float(input("Enter the original price: "))
 discount_percent = float(input("Enter the percentage discount: "))
 # calling the function and storing the result in final_price
 final_price = calculate_discount(price, discount_percent)
+print(final_price)
+
